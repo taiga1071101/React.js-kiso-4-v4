@@ -1,12 +1,12 @@
-import { Router } from './routes/Router.tsx';
-import './App.css'
+import { Routes, Route } from "react-router";
+import Home from "./pages/Home";
+import SelfIntroduction from "./pages/SelfIntroduction";
 
-function App() {
+export const App = () => {
   return (
-    <>
-      <Router />
-    </>
-  )
-}
-
-export default App
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/self" element={<SelfIntroduction />} />
+    </Routes>
+  );
+};

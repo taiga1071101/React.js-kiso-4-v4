@@ -8,7 +8,7 @@ const SelfIntroduction = () => {
         <p>名前：中山大雅</p>
         <p>所属：株式会社FPC</p>
       </div>
-      <Link to='/React.js-kiso-4-v4/'>ホーム画面へ</Link>
+      <Link to='/'>ホーム画面へ</Link>
     </>
   );
 };
