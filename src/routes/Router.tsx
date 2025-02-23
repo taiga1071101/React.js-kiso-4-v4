@@ -7,8 +7,8 @@ function Router () {
   return (
     <BrowserRouter>
       <Routes>
-      <Route path='/' element={<Home />} />
-        <Route path='/self/' element={<SelfIntroduction />} />
+        <Route path='/React.js-kiso-4-v4/' element={<Home />} />
+        <Route path='/React.js-kiso-4-v4/self/' element={<SelfIntroduction />} />
       </Routes>
     </BrowserRouter>
     
